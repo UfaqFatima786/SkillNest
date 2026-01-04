@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(79, 68, 141);
-    /* background-image: linear-gradient(90deg, rgba(247, 5, 5, 1) 0%, rgba(172, 96, 65, 1) 33%, rgba(87, 199, 133, 1) 60%, rgba(237, 168, 83, 1) 100%); */
+    /* background-image: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(92, 65, 141) 33%, rgba(87, 199, 133, 1) 60%, rgb(237, 83, 186) 100%); */
 }
 
 .logo-1 {
@@ -15,7 +15,9 @@ body {
 }
 
 .navUl {
-    background-color: rgb(104, 2, 2);
+    background-color: rgba(23, 2, 99, 1);
+        background-image: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(92, 65, 141) 33%, rgba(87, 199, 133, 1) 60%, rgb(237, 83, 186) 100%);
+
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(14, 13, 13);
 }
@@ -32,4 +34,7 @@ body {
 
 .navlist .btn {
     white-space: nowrap;
+}
+.btno{
+background-color: #fd7e7e;
 }
