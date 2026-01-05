@@ -37,8 +37,20 @@ body {
 }
 
 .btno {
-    background-color: #fd7e7e;
+    background-color: #286135;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid white;
 }
+.btno:hover {
+    background-color: #72ff93;
+    border-radius: 15px;
+    color: #000000;
+    cursor: pointer;
+        border: 2px solid rgb(100, 100, 100);
+
+}
+
 
 .education-img {
     border: 2px solid black;
@@ -121,4 +133,61 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
     cursor: pointer;
+}
+.second-middle-row{
+    background-color: #305f2a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+}
+.section-services {
+        background-color: #418139;
+
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgb(236, 219, 219);
+    padding: 30px;
+
+}
+
+.section-services:hover {
+    background-color: #30472d;
+    box-shadow: 5px 5px 25px rgb(160, 255, 160);
+    cursor: pointer;
+    animation-name: zoom-In;
+    animation-duration: 2s;
+}
+
+
+.Selling-button {
+    font-size: 35px;
+    font-style: bold;
+    background-color: #853636;
+    color: #f5b1b1;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+
+.Selling-button:hover {
+    font-size: 40px;
+    font-style: bold;
+    background-color: #530202;
+    color: #fcfafa;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid rgb(252, 180, 220);
+}
+.card {
+    background-color: rgb(120, 218, 90);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    background-color: rgb(163, 233, 142);
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    animation-name: pulse;
+    animation-duration: 2s;
 }
