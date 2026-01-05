@@ -96,3 +96,29 @@ body {
     transition: 0.3s;
     cursor: pointer;
 }
+.paragraph{
+    font-size: 30px;
+    color: #ffffff;
+}
+.header-row {
+    background-color: #305f2a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+}
+.header-row:hover {
+    background-color: #53834d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.middle-row {
+    background-color: #305f2a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+}
+.middle-row:hover {
+    background-color: #53834d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    cursor: pointer;
+}
