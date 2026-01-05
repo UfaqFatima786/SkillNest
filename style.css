@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(79, 68, 141);
+    background-color: rgb(12, 41, 6);
     /* background-image: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(92, 65, 141) 33%, rgba(87, 199, 133, 1) 60%, rgb(237, 83, 186) 100%); */
 }
 
@@ -15,8 +15,8 @@ body {
 }
 
 .navUl {
-    background-color: rgba(23, 2, 99, 1);
-        background-image: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(92, 65, 141) 33%, rgba(87, 199, 133, 1) 60%, rgb(237, 83, 186) 100%);
+    background-color: rgb(0, 0, 0);
+    /* background-image: linear-gradient(90deg, rgb(98, 0, 255) 0%, rgb(92, 65, 141) 33%, rgba(87, 199, 133, 1) 60%, rgb(237, 83, 186) 100%); */
 
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(14, 13, 13);
@@ -35,6 +35,64 @@ body {
 .navlist .btn {
     white-space: nowrap;
 }
-.btno{
-background-color: #fd7e7e;
+
+.btno {
+    background-color: #fd7e7e;
+}
+
+.education-img {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(248, 244, 244);
+
+}
+
+.education-img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(243, 177, 177);
+    cursor: pointer;
+    animation-name: __pulse;
+    animation-duration: 2s;
+
+
+}
+
+
+.heading-3 {
+    color: white;
+    font-weight: 600;
+}
+
+.heading-3:hover {
+    color: rgb(226, 225, 225);
+    font-weight: 650;
+    transition: 0.3s;
+    cursor: pointer;
+    animation-name: __flash;
+    animation: slideFade 0.5s ease forwards;
+}
+
+@keyframes slideFade {
+    from {
+        opacity: 0.5;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.para-1 {
+    color: white;
+    font-weight: 400;
+}
+
+.para-1:hover {
+    color: rgb(226, 225, 225);
+    font-weight: 450;
+    transition: 0.3s;
+    cursor: pointer;
 }
