@@ -154,6 +154,26 @@ body {
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
 
+.second-middle-row:hover {
+    background-color: #53834d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.working-row {
+    background-color: #305f2a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+}
+
+.working-row:hover {
+    background-color: #53834d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 .section-services {
     background-color: #418139;
     border: 2px solid rgb(1, 62, 1);
@@ -279,6 +299,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+}
 
 
 
@@ -319,24 +344,28 @@ body {
         height: 350px !important;
     }
 }
+
 @media only screen and (max-width: 769px) {
     .mid-img {
         width: 450px !important;
         height: 350px !important;
     }
 }
+
 @media only screen and (max-width: 520px) {
     .mid-img {
         width: 350px !important;
         height: 350px !important;
     }
 }
+
 @media only screen and (max-width: 420px) {
     .mid-img {
         width: 275px !important;
         height: 300px !important;
     }
 }
+
 @media only screen and (max-width: 347px) {
     .mid-img {
         width: 200px !important;
@@ -350,14 +379,17 @@ body {
         height: 200px !important;
     }
 }
+
 @media only screen and (max-width: 280px) {
-   .heading-3{
-    font-size: 25px;
-   }
-   .para-1{
-    font-size: 10;
-   }
+    .heading-3 {
+        font-size: 25px;
+    }
+
+    .para-1 {
+        font-size: 10;
+    }
 }
+
 @media only screen and (max-width: 215px) {
     .mid-img {
         width: 125px !important;
