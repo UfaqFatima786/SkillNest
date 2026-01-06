@@ -42,12 +42,13 @@ body {
     color: #ffffff;
     border: 2px solid white;
 }
+
 .btno:hover {
     background-color: #72ff93;
     border-radius: 15px;
     color: #000000;
     cursor: pointer;
-        border: 2px solid rgb(100, 100, 100);
+    border: 2px solid rgb(100, 100, 100);
 
 }
 
@@ -56,32 +57,39 @@ body {
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(248, 244, 244);
-
 }
 
 .education-img:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 25px rgb(243, 177, 177);
+    box-shadow: 5px 5px 25px rgb(11, 57, 3);
     cursor: pointer;
     animation-name: __pulse;
     animation-duration: 2s;
-
-
 }
 
 
 .heading-3 {
     color: white;
-    font-weight: 600;
+    /* font-weight: 600; */
+    font-size: 50px;
 }
 
 .heading-3:hover {
-    color: rgb(226, 225, 225);
-    font-weight: 650;
+    color: rgb(0, 0, 0);
+    /* font-weight: 650; */
     transition: 0.3s;
     cursor: pointer;
     animation-name: __flash;
     animation: slideFade 0.5s ease forwards;
+}
+
+.para-1 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.para-1:hover {
+    color: #ff0000;
 }
 
 @keyframes slideFade {
@@ -108,40 +116,47 @@ body {
     transition: 0.3s;
     cursor: pointer;
 }
-.paragraph{
+
+.paragraph {
     font-size: 30px;
     color: #ffffff;
 }
+
 .header-row {
     background-color: #305f2a;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
+
 .header-row:hover {
     background-color: #53834d;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
     cursor: pointer;
 }
+
 .middle-row {
     background-color: #305f2a;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
+
 .middle-row:hover {
     background-color: #53834d;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
     cursor: pointer;
 }
-.second-middle-row{
+
+.second-middle-row {
     background-color: #118302;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
+
 .section-services {
-        background-color: #418139;
-border:2px solid rgb(1, 62, 1);
+    background-color: #418139;
+    border: 2px solid rgb(1, 62, 1);
     border-radius: 50px;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px rgb(236, 219, 219);
@@ -156,7 +171,8 @@ border:2px solid rgb(1, 62, 1);
     animation-name: zoom-In;
     animation-duration: 2s;
 }
-.paragraph{
+
+.paragraph {
     color: #000;
 }
 
@@ -179,11 +195,12 @@ border:2px solid rgb(1, 62, 1);
     transition: 0.5s;
     border: 2px solid rgb(180, 252, 186);
 }
+
 .card {
     background-color: rgb(99, 179, 74);
     border-radius: 10px;
     box-sizing: border-box;
-        border: 2px solid rgb(1, 46, 4);
+    border: 2px solid rgb(1, 46, 4);
 
 }
 
@@ -195,17 +212,19 @@ border:2px solid rgb(1, 62, 1);
     animation-name: pulse;
     animation-duration: 2s;
 }
-.Skill-btn{
-     font-size: 35px;
+
+.Skill-btn {
+    font-size: 35px;
     font-style: bold;
     background-color: #2c6d3b;
     color: #ffffff;
     border: 2px solid rgb(2, 58, 17);
     border-radius: 25px;
-        box-shadow: 5px 5px 15px rgb(236, 219, 219);
+    box-shadow: 5px 5px 15px rgb(236, 219, 219);
 
 
 }
+
 .Skill-btn:hover {
     font-size: 36px;
     font-style: bold;
@@ -214,7 +233,7 @@ border:2px solid rgb(1, 62, 1);
     cursor: pointer;
     transition: 0.5s;
     border: 2px solid rgb(0, 0, 0);
-        box-shadow: 5px 5px 15px rgb(1, 76, 29);
+    box-shadow: 5px 5px 15px rgb(1, 76, 29);
 
 
 }
