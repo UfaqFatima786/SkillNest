@@ -158,27 +158,27 @@ body {
 }
 
 
-.Selling-button {
+.courses-button {
     font-size: 35px;
     font-style: bold;
-    background-color: #853636;
-    color: #f5b1b1;
+    background-color: #2c6d3b;
+    color: #ffffff;
     border: 2px solid black;
     border-radius: 25px;
 
 }
 
-.Selling-button:hover {
-    font-size: 40px;
+.courses-button:hover {
+    font-size: 36px;
     font-style: bold;
-    background-color: #530202;
-    color: #fcfafa;
+    background-color: #6bfa77;
+    color: #000000;
     cursor: pointer;
     transition: 0.5s;
-    border: 2px solid rgb(252, 180, 220);
+    border: 2px solid rgb(180, 252, 186);
 }
 .card {
-    background-color: rgb(120, 218, 90);
+    background-color: rgb(99, 179, 74);
     border-radius: 10px;
     box-sizing: border-box;
 }
