@@ -135,13 +135,13 @@ body {
     cursor: pointer;
 }
 .second-middle-row{
-    background-color: #305f2a;
+    background-color: #118302;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
 .section-services {
         background-color: #418139;
-
+border:2px solid rgb(1, 62, 1);
     border-radius: 50px;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px rgb(236, 219, 219);
@@ -150,13 +150,15 @@ body {
 }
 
 .section-services:hover {
-    background-color: #30472d;
+    background-color: #90de86;
     box-shadow: 5px 5px 25px rgb(160, 255, 160);
     cursor: pointer;
     animation-name: zoom-In;
     animation-duration: 2s;
 }
-
+.paragraph{
+    color: #000;
+}
 
 .courses-button {
     font-size: 35px;
@@ -181,6 +183,8 @@ body {
     background-color: rgb(99, 179, 74);
     border-radius: 10px;
     box-sizing: border-box;
+        border: 2px solid rgb(1, 46, 4);
+
 }
 
 .card:hover {
@@ -190,4 +194,27 @@ body {
     cursor: pointer;
     animation-name: pulse;
     animation-duration: 2s;
+}
+.Skill-btn{
+     font-size: 35px;
+    font-style: bold;
+    background-color: #2c6d3b;
+    color: #ffffff;
+    border: 2px solid rgb(2, 58, 17);
+    border-radius: 25px;
+        box-shadow: 5px 5px 15px rgb(236, 219, 219);
+
+
+}
+.Skill-btn:hover {
+    font-size: 36px;
+    font-style: bold;
+    background-color: #6bfa77;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid rgb(0, 0, 0);
+        box-shadow: 5px 5px 15px rgb(1, 76, 29);
+
+
 }
