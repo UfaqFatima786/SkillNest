@@ -304,15 +304,17 @@ body {
     height: 300px;
     border: 2px solid white;
 }
-.paras{
+
+.paras {
     color: #ffffff;
     font-size: 25px;
 }
+
 .img-1 {
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(248, 244, 244);
-    width: 330px;
+    width: 350px;
     height: 380px;
 }
 
@@ -323,9 +325,10 @@ body {
     animation-name: zoom-In;
     animation-duration: 2s;
 }
-.right-side{
-cursor: pointer;
-animation-name: zoom-In;
+
+.right-side {
+    cursor: pointer;
+    animation-name: zoom-In;
     animation-duration: 2s;
 }
 
@@ -395,17 +398,20 @@ animation-name: zoom-In;
         width: 200px !important;
         height: 275px !important;
     }
-    .img-1{
+
+    .img-1 {
         width: 225px !important;
+        height: 250px;
 
     }
 }
 
 @media only screen and (max-width: 300px) {
-    .Skill-btn{
+    .Skill-btn {
         font-size: 25px;
     }
-    .Skill-btn:hover{
+
+    .Skill-btn:hover {
         font-size: 26px;
     }
 
@@ -420,22 +426,26 @@ animation-name: zoom-In;
         font-size: 10;
     }
 }
+
 @media only screen and (max-width: 274px) {
     .mid-img {
         width: 150px !important;
         height: 200px !important;
     }
-    .img-1{
+
+    .img-1 {
         width: 175px !important;
+        height: 200px;
 
     }
 }
 
 @media only screen and (max-width: 250px) {
-    .Skill-btn{
+    .Skill-btn {
         font-size: 17px;
     }
-    .Skill-btn:hover{
+
+    .Skill-btn:hover {
         font-size: 18px;
     }
 
