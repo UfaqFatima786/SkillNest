@@ -304,6 +304,28 @@ body {
     height: 300px;
     border: 2px solid white;
 }
+.paras{
+    color: #ffffff;
+    font-size: 20px;
+}
+.img-1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(248, 244, 244);
+}
+
+.img-1:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(11, 57, 3);
+    cursor: pointer;
+    animation-name: __pulse;
+    animation-duration: 2s;
+}
+.right-side{
+cursor: pointer;
+animation-name: zoom-In;
+    animation-duration: 2s;
+}
 
 
 
