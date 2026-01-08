@@ -77,7 +77,7 @@ body {
 .heading-3:hover {
     color: rgb(0, 0, 0);
     /* font-weight: 650; */
-    transition: 0.3s;
+    transition: 0.9s;
     cursor: pointer;
     animation-name: __flash;
     animation: slideFade 0.5s ease forwards;
@@ -354,18 +354,21 @@ body {
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 15px rgb(1, 76, 29);
 }
-.head2{
-    color: white;
-    text-align: left;
-}
-.parag-2{
+
+.head2 {
     color: white;
     text-align: left;
 }
 
-.contact-para{
+.parag-2 {
+    color: white;
+    text-align: left;
+}
+
+.contact-para {
     padding-top: 200px;
 }
+
 .form {
     max-width: 500px;
     margin: 20px auto;
@@ -377,7 +380,7 @@ body {
     border: 2px solid #71ff92;
 }
 
-.form:hover{
+.form:hover {
     max-width: 500px;
     margin: 20px auto;
     padding: 25px;
@@ -418,9 +421,11 @@ body {
     outline: none;
     box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
 }
-.btn{
+
+.btn {
     background-color: #c0f8b9;
 }
+
 .btn:hover {
     background-color: #01420a;
     color: #ffffff;
@@ -431,6 +436,7 @@ body {
     background-color: #00800b;
     transform: scale(0.98);
 }
+
 .e-para {
     color: #fdfafa;
     text-align: center;
@@ -440,6 +446,47 @@ body {
     color: #fcfafa;
     text-decoration: none;
 }
+
+.main-footer {
+    margin-top: 50px;
+    background-color: #000000;
+}
+
+.footer-heading-03 {
+    color: #ffffff;
+}
+
+.foot-img {
+
+    text-align: center;
+    gap: 2px;
+}
+
+.foot-logo {
+    width: 200px;
+}
+
+.last-div span {
+    color: #ffffff;
+}
+
+.footer-para {
+    color: #ffffff;
+
+}
+
+.footer-para a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.github-logo {
+    width: 35px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+
 
 @media screen and (max-width: 1422px) {
     body {
@@ -476,9 +523,10 @@ body {
         width: 550px !important;
         height: 350px !important;
     }
-    .contact-para{
-    padding-top: 15px;
-}
+
+    .contact-para {
+        padding-top: 15px;
+    }
 }
 
 @media only screen and (max-width: 769px) {
@@ -523,7 +571,8 @@ body {
     .Skill-btn:hover {
         font-size: 26px;
     }
-    .e-para{
+
+    .e-para {
         display: none;
     }
 
