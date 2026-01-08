@@ -354,9 +354,92 @@ body {
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 15px rgb(1, 76, 29);
 }
+.head2{
+    color: white;
+    text-align: left;
+}
+.parag-2{
+    color: white;
+    text-align: left;
+}
 
+.contact-para{
+    padding-top: 200px;
+}
+.form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #052401;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(161, 248, 190);
+    font-family: Arial, sans-serif;
+    border: 2px solid #71ff92;
+}
 
+.form:hover{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #23521d;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(161, 248, 190);
+    font-family: Arial, sans-serif;
+    border: 2px solid #71ff92;
+    cursor: pointer;
+}
 
+.label,
+.label-msg {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form input[type="text"],
+.form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form input[type="text"]:hover,
+.form textarea:hover {
+    border-color: #1a015f;
+}
+
+.form input[type="text"]:focus,
+.form textarea:focus {
+    border-color: #012c0b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+.btn{
+    background-color: #c0f8b9;
+}
+.btn:hover {
+    background-color: #01420a;
+    color: #ffffff;
+    border: 2px solid #052401;
+}
+
+.btn:active {
+    background-color: #00800b;
+    transform: scale(0.98);
+}
+.e-para {
+    color: #fdfafa;
+    text-align: center;
+}
+
+.tag {
+    color: #fcfafa;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 1422px) {
     body {
@@ -393,6 +476,9 @@ body {
         width: 550px !important;
         height: 350px !important;
     }
+    .contact-para{
+    padding-top: 15px;
+}
 }
 
 @media only screen and (max-width: 769px) {
@@ -436,6 +522,9 @@ body {
 
     .Skill-btn:hover {
         font-size: 26px;
+    }
+    .e-para{
+        display: none;
     }
 
 }
