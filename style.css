@@ -332,6 +332,29 @@ body {
     animation-duration: 2s;
 }
 
+.contact-button {
+    font-size: 35px;
+    font-style: bold;
+    background-color: #2c6d3b;
+    color: #ffffff;
+    border: 2px solid rgb(2, 58, 17);
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(236, 219, 219);
+
+
+}
+
+.contact-button:hover {
+    font-size: 36px;
+    font-style: bold;
+    background-color: #6bfa77;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 15px rgb(1, 76, 29);
+}
+
 
 
 
