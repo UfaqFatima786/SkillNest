@@ -540,6 +540,23 @@ a{
         padding-top: 15px;
     }
 }
+@media only screen and (max-width:991px){
+     .row-footer {
+        flex-direction: column;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .footer-heading-03 {
+        font-size: 22px;
+    }
+    .links{
+        
+    }
+}
 
 @media only screen and (max-width: 769px) {
     .mid-img {
